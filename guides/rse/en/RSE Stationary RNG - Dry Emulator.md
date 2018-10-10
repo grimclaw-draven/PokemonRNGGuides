@@ -29,7 +29,7 @@ Edited Rick's guide, not yet complete. -Subject
 - Real Time Clock must be disbled in order to obtain dead battery seeds.
     - Options > Emulation > Real Time Clock
     - If there are errors when loading past the title screen, such as corrupted save or dead battery message, restart VBA for the changes to take effect.
-- load the lua scritps.
+- load the lua scritp.
 
 2. Pokefinder uetup
 
