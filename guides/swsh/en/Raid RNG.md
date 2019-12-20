@@ -9,9 +9,9 @@ But Raid RNG is really powerful. You'll be able to go for almost any Pokemon (on
 This guide will cover how to RNG a Raid with using a Wishing Piece AND how to RNG natural beams.
 
 The RNG itself is something you do in 3 steps : 
-* The Setup : You'll need to find a raid seed (by different methods).
-* The Advancement : How to advance to your target frame.
-* The Species Reset : How to get the Pokemon YOU want.
+* The Setup: You'll need to find a raid seed (by different methods).
+* The Advancement: How to advance to your target frame.
+* The Species Reset: How to get the Pokemon YOU want.
 
 **Important note : GameFreak can patch this at any time. Take care to not update the game at the moment**
 
@@ -21,10 +21,10 @@ In order to make it work you'll need a few tools. This can change with which met
 
 Here's a list of tools used for the RNG process : 
 
-* Admiral Fish's RaidFinder : https://github.com/Admiral-Fish/RaidFinder/releases/
-* Leanny's PKHeX Raid Plugin : https://github.com/Leanny/PKHeX_Raid_Plugin (this implies you know how to add a plugin to PKHeX, be sure to authorize the plugin via the files' proprieties)
-* Admiral Fish's Raid Solver : https://github.com/Admiral-Fish/RaidFinder/blob/master/raid_solver.py Use that if you can only get a pk8, or the PID / EC of a Pokemon. You'll need python and z3 for that. You'll have to input the PID / EC and the number of perfect IVs (From 1 to 6). After it'll give you your Raid seed.
-* Zaksabeast’s CaptureSight: For that, you’ll need a CFW switch. The most effective tool with in real-time raid display (id and seed)
+* Admiral Fish's RaidFinder: https://github.com/Admiral-Fish/RaidFinder/releases/
+* Leanny's PKHeX Raid Plugin: https://github.com/Leanny/PKHeX_Raid_Plugin (this implies you know how to add a plugin to PKHeX, be sure to authorize the plugin via the files' proprieties)
+* Admiral Fish's Raid Solver: https://github.com/Admiral-Fish/RaidFinder/blob/master/raid_solver.py Use that if you can only get a pk8, or the PID / EC of a Pokemon. You'll need python and z3 for that. You'll have to input the PID / EC and the number of perfect IVs (From 1 to 6). After it'll give you your Raid seed.
+* Zaksabeast’s CaptureSight: https://github.com/zaksabeast/CaptureSight/releases For that, you’ll need a CFW switch. The most effective tool with in real-time raid display (id and seed)
 
 ## The Setup
 
@@ -37,7 +37,7 @@ This part is the most difficult and the most long depending your method. There'r
 **There'll be no issue to do RNG on Yuzu. At the moment, the RTC is broken so advancing is not really possible. Once it'll be fixed, support will be looked into**
 
 
-And also there're 3 different methods to get your seed : 
+And also there're 3 different methods to get your seed: 
 
 * Using CaptureSight. This tool will ask no dump, or anything. This can be used in solution 1. **However** this can be applied to the method 3. to help the non CFW Switch.
 * By dumping the save file. This apply in the two first solutions. You'll need to dump your savefile to get each Raid Seed.
@@ -67,7 +67,7 @@ Input your seed in either RaidFinder or the PKHeX plugin. It should display all 
 If the seed gives you a result you want to RNG, go back in game and let the game save. You're ready to advance for the next step.
 If not, close the game and retry. Do that until you get an interesting Seed.
 
-#### If you’re a CFWless user who knows a CFW user :
+#### If you’re a CFWless user who knows a CFW user:
 
 I'm not sure we need to call out it's different since we have instructions showing how it's different. The CFWless Switch will just have to save in front of a den. You can use the Soft Reset method to focus only on Rare beams. 
 
