@@ -118,7 +118,7 @@ If you're fine with the seed and your target, you can start the advance part. If
 
 ## The Advancement
 
-**At the moment, for this first release, I'll cover only the one day by one day method. There's a faster method being worked on, but since we don't have all the informations on what works or not for the offline method (and even trying to find different methods for the online method) it'll be not being explained right now. But be sure to have an update on this has soon as all the informations are found**
+**At the moment, for this first release, I'll cover only the one day by one day method. There's a faster method being worked on, but since we don't have all the informations on what works or not for the offline method (and even trying to find different methods for the online method) it'll not be explained right now. But be sure to have an update on this has soon as all the informations are found**
 
 This method is pretty known and is around since the release of Sword / Shield. This has been used to go for a desired Pokemon, or even just to farm infinite Watts. But in the end this method advances the Frames for the RNG process.
 
