@@ -168,7 +168,7 @@ So that's why you need to take care to end your advancement **BEFORE** your Shin
 Once you get the idea that the game stores three frames, you just have to adapt from that and use that at your advantage : By saving 3 frames before your target frame, you can just do 3 advancement, see if your target is the Pokemon you wanted. If not, close the game and retry again.
 
 IVs are 100% set with the IVs Count (aka the amount of stars of your raid).
-Nature, Gender and Ability can change with the 
+Nature, Gender and Ability can change with the gnder rate (and so the species), check every Pokemon to find what you want.
 
 By doing everything, you should finally get your Target Raid. 
 
