@@ -23,6 +23,7 @@ Here's a list of tools used for the RNG process :
 
 * Admiral Fish's RaidFinder: https://github.com/Admiral-Fish/RaidFinder/releases/
 * Leanny's PKHeX Raid Plugin: https://github.com/Leanny/PKHeX_Raid_Plugin (this implies you know how to add a plugin to PKHeX, be sure to authorize the plugin via the files' proprieties)
+* Leanny's Mobile Seed Checker : https://leanny.github.io/seedchecker/index.html (It allows to find the closest Shiny Frame, to search by Nest and also let you to show / filter by IV Judge's values)
 * Admiral Fish's Raid Solver: https://github.com/Admiral-Fish/RaidFinder/blob/master/raid_solver.py Use that if you can only get a pk8, or the PID / EC of a Pokemon. You'll need python and z3 for that. You'll have to input the PID / EC and the number of perfect IVs (From 1 to 6). After it'll give you your Raid seed.
 * Zaksabeast’s CaptureSight: https://github.com/zaksabeast/CaptureSight/releases For that, you’ll need a CFW switch. The most effective tool with in real-time raid display (id and seed)
 
