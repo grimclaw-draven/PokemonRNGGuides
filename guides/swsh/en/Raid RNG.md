@@ -81,8 +81,7 @@ Once you find a den to RNG:
 5. Use the raid solver in order to get the den's seed
 6. Use RaidFinder or the PKHeX plugin to find a Pokemon you want to RNG
 7. Have the CFWless switch restart the game without saving
-8. 
-If a good RNG isn't found, beat the raid or use a wishing piece, then start again.
+8. If a good RNG isn't found, beat the raid or use a wishing piece, then start again.
 
 
 Another solution which is faster for CFW users:
