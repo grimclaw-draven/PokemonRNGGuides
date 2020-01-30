@@ -28,6 +28,8 @@ Here's a list of tools used for the RNG process :
 
 ## The Setup
 
+**The guide will be adjusted or updated to support OneStar soon**
+
 This part is the most difficult and the most long depending your method. There're 3 different solutions : 
 
 1. You have a CFW'd Switch.
@@ -118,16 +120,31 @@ If you're fine with the seed and your target, you can start the advance part. If
 
 ## The Advancement
 
-**At the moment, for this first release, I'll cover only the one day by one day method. There's a faster method being worked on, but since we don't have all the informations on what works or not for the offline method (and even trying to find different methods for the online method) it'll not be explained right now. But be sure to have an update on this has soon as all the informations are found**
-
 This method is pretty known and is around since the release of Sword / Shield. This has been used to go for a desired Pokemon, or even just to farm infinite Watts. But in the end this method advances the Frames for the RNG process.
 
 A Raid Seed work like any other Seed in any other game, with his list of seeds and frames to hit. In the end, when the game advances the day by one, **EACH** raid (active or not, wishing piece'd or not) will advance of one frame.
 
 But since we can manipulate the time with the Switch settings, it makes Frame advancing really easy and allows Raid RNG to be doable in the end. 
 
+In order to advance frames, you've 3 methods. Similar to the setup and to find your Raid Seed, you'll have the choice of the method(s) based on what your Switch setup is. You can either : 
+
+* Advance frames offline, day by day. It was the original method.
+* Advance frames using the VS Battle glitch, really fast, but online is necessary.
+* Advance frames using Luxray. A Homebrew that makes advancing for you.
+* Using Arduino / botting to do the advancement for you. It'll not be covered on that guide at this state, but you can find an example of a frame advancing tool [here](https://github.com/nnguy132/Switch-Frame-Advancer)
+
 The following will assume that you KNOWS your Raid Seed, and you found a desired frame target.
 **RaidFinder and the PKHeX plugin has a different frame indexing. the plugin starts with Frame 0 (your actual frame) while RaidFinder starts with Frame 1 (also being your actual Frame) take care of this**
+
+In every method, you can advance the way you want. Day by day, month by month, year by year. The only important thing is to be able to track your advancements, since **changing your dates by X days at once will not do anything except advancing the frames by 1**. The same way you can roll back in the time in order to continue your frame advancement. **Chaning your time in the past WILL NOT influence your frame**
+
+You have to take care of the daily advancement, which can happen. But you can also **do anything** in the game. Only time is a factor to advance your Seed.
+
+Last point, you can use any method to find your Raid Seed in order to be sure that you didn't mess up. This will help to secure your RNG. Just be sure to NOT loose your Raid.
+
+### Day by Day, offline method.
+
+This is the longest method, but the original one. It'll be your only solution if you don't have online and cfw. The huge advantage of the method is the fact you farm Watt, and can get a huge amount in the end. Except that, if you can get online or cfw, it's more interesting to follow an other method.
 
 **Your Switch must be AT LEAST in local mode, airplane will not work. If you're on CFW it's safe to go for the local mode if you delete any wi-fi connection**
 
@@ -135,25 +152,51 @@ The following will assume that you KNOWS your Raid Seed, and you found a desired
 2. Go to "Invite others"
 3. While the game is searching, press the Home button
 4. Go to "Settings" => "Date and Time"
-5. Edit your day by one day
+5. Edit your day / month / year by one (or more since it'll only advance by 1)
 6. Press "OK"
 7. Enter back into the game
 8. Cancel the raid search
 
 **The Date / Time settings must be set to be edited manually and not to be updated from the server** 
-**Also, changing your dates by X days at once will not do anything except advancing the frames by 1**
 
 Go back in the game. Cancel the Raid search, and go back to the overworld. You'll see the den being red again. If you can collect the watts again, this means you advanced your frame correctly.
 
-Do that everytime until being close to your target.
+Repeat that until being 3 frames from your target.
 
-**Because of the next step, you'll have to stop 3 frames BEFORE the target frame, take care of this**
+### VS Battle glitch
 
-You can also revert back in the time when you want (just be sure to not be in the searching for other players part) if you don't want to mess up too much with the Switch's clock.
+This method is the most effective one if you don't have CFW. It allows to advance frames really fast, but requires to have online (and by online, it's subscription to the Nintendo Online). 
 
-You can take breaks when necessary. It's not a must to do all advancements at once.
+To do a little summary, after doing **a ranked battle** the game will not pause in the background. It allows to do all your advancements in the switch menu without going back in game or anything. 
 
-Last point, you can use any method to find your Raid Seed in order to be sure that you didn't mess up. This will help to secure your RNG. Be sure to NOT loose your Raid.
+1. Go to a Pokemon Center. It'll reduce the risk of crash.
+2. Connect your Switch online, and go to the VS Menu
+3. Launch a Ranked Battle. Solo or Duo is fine. Also winning, loosing or forfeiting  is fine.
+4. As soon as the battle is over (when you see the results with the Trainer Cards), spam B as much as possible until being in the Pokemon Center, turn off the online and open the Switch Menu
+5. Go to the Switch Settings, "Date and Time"
+6. Edit your day / month / year, press "OK"
+7. Re-do that as much as necessary until being 3 frames from your target.
+
+**The Date / Time settings must be set to be edited manually and not to be updated from the server** 
+
+**Some people had issues by advancing a specific amount and getting more far than excepted. So take that in consideration.
+
+### Luxray
+
+This is a homebrew tool done by Dualie_ink. This guide will only cover the basics. You can download it [here](https://github.com/3096/luxray) and install it to your switch. 
+
+**With Luxray, you'll have to set the Date / Time setting to be from the server, as the opposite to every other method**
+
+You'll need to launch the overlay by launching Luxray in the Homebrew application. You can activate / desactivate it by pressing the Up button and the up with the right stick. You can navigate in the overlay by using the directional buttons, and validate with the R button.
+
+1. Go to a Pokemon Center to avoid any crash like for the online method
+2. Set the amount of frames you'll need to advance with the overlay menu
+3. Press Step in order to have Luxray to advance frames
+
+DO that until being at 3 frames from your target, as always.
+
+**You can use Luxray to fix your Switch's clock since it edits the internal server time.**
+
 
 ## The Species Reset
 
@@ -167,8 +210,7 @@ So that's why you need to take care to end your advancement **BEFORE** your Shin
 
 Once you get the idea that the game stores three frames, you just have to adapt from that and use that at your advantage : By saving 3 frames before your target frame, you can just do 3 advancement, see if your target is the Pokemon you wanted. If not, close the game and retry again.
 
-IVs are 100% set with the IVs Count (aka the amount of stars of your raid).
-Nature, Gender and Ability can change with the gnder rate (and so the species), check every Pokemon to find what you want.
+IVs, Nature, Gender and Ability is linked to the Amount of IVs guaranteed by the Pokemon. It's not really linked to the species or by the amount of stars. It's something case by case (For example, many Pokemon with 3/4/5 stars will give 4IVs). You'll have to look the results for your target in order to know what you'll get.
 
 By doing everything, you should finally get your Target Raid. 
 
@@ -195,4 +237,4 @@ Now it'll be similar to the Species Reset, except you're gonna try to hit a SPEC
 **If you're using CaptureSight, you can use the Active Den List, saving you a lot of time**
 
 
-That's all for Raid RNG. More stuff will be updated in the future. Enjoy this first release.
+That's all for Raid RNG. Enjoy, and don't hesitate to ask in the subreddit or the discord if you have any question.
