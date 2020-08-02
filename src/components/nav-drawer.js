@@ -7,8 +7,9 @@ import MUIListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import List from '@material-ui/core/List';
 import { Link } from 'gatsby';
-import { DISCORD_URL, CONTRIBUTING_URL } from '../constants';
+import { DISCORD_URL } from '../constants';
 import { useGuideList } from '../utils/use-guide-list';
+import { usePageList } from '../utils/use-page-list';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 const useStyles = makeStyles(theme => ({
@@ -36,6 +37,7 @@ export const NavDrawer = ({ isOpen, onClose }) => {
   const theme = useTheme();
   const isLargerScreen = useMediaQuery(theme.breakpoints.up('md'));
   const classes = useStyles();
+  const pages = usePageList();
   const guides = useGuideList();
   const guideCategories = Object.keys(guides)
     .sort()
@@ -68,9 +70,17 @@ export const NavDrawer = ({ isOpen, onClose }) => {
           <ListItem component={Link} to="/" role="link" button>
             <ListItemText>Home</ListItemText>
           </ListItem>
-          <ListItem component={Link} to={CONTRIBUTING_URL} role="link" button>
-            <ListItemText>Contribute</ListItemText>
-          </ListItem>
+          {pages.map(page => (
+            <ListItem
+              key={page.slug}
+              component={Link}
+              to={page.slug}
+              role="link"
+              button
+            >
+              <ListItemText>{page.title}</ListItemText>
+            </ListItem>
+          ))}
           <ListItem component="a" href={DISCORD_URL} button>
             <ListItemText>Discord</ListItemText>
           </ListItem>
